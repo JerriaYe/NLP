@@ -1,5 +1,5 @@
 # 零基础入门NLP - 新闻文本分类
-此文件夹存放7月份datawhale与天池合作的零基础入门NLP - 新闻文本分类(https://tianchi.aliyun.com/competition/entrance/531810/introduction/)。
+此文件夹存放7月份datawhale与天池合作的[零基础入门NLP - 新闻文本分类](https://tianchi.aliyun.com/competition/entrance/531810/introduction/)。
 
 #### 赛题数据
 赛题数据为新闻文本，并按照字符级别进行匿名处理。整合划分出14个候选分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐的文本数据。
