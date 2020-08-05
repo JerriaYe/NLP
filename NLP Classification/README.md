@@ -31,7 +31,20 @@ FastText在文本分类任务上，是优于TF-IDF的：
 - 通过阅读文档，要弄清楚这些参数的大致含义，那些参数会增加模型的复杂度
 - 通过在验证集上进行验证模型精度，找到模型在是否过拟合还是欠拟合
 
-### task4.深度学习之Word2Vec
+### task5.深度学习之Word2Vec
 Embedding能够用低维向量对物体进行编码还能保留其含义的特点非常适合深度学习。
 
 在训练word2vec的过程中还有很多工程技巧，用negative sampling或Hierarchical Softmax减少词汇空间过大带来的计算量。
+
+### task6.深度学习之BERT
+BERT，全称是Pre-training of Deep Bidirectional Transformers for Language Understanding。注意其中的每一个词都说明了BERT的一个特征。
+
+Pre-training说明BERT是一个预训练模型，通过前期的大量语料的无监督训练，为下游任务学习大量的先验的语言、句法、词义等信息。
+
+Bidirectional 说明BERT采用的是双向语言模型的方式，能够更好的融合前后文的知识。
+
+Transformers说明BERT采用Transformers作为特征抽取器。
+
+Deep说明模型很深，base版本有12层，large版本有24层。
+
+总的来说，BERT是一个用Transformers作为特征抽取器的深度双向预训练语言理解模型。
